@@ -10,6 +10,7 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![CI](https://github.com/greynewell/mcpbr/actions/workflows/ci.yml/badge.svg)](https://github.com/greynewell/mcpbr/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation](https://img.shields.io/badge/docs-greynewell.github.io%2Fmcpbr-blue)](https://greynewell.github.io/mcpbr/)
 
 > Stop guessing if your MCP server actually helps. Get hard numbers comparing tool-assisted vs. baseline agent performance on real GitHub issues.
 
@@ -52,9 +53,11 @@ This harness runs two parallel evaluations for each SWE-bench task:
 1. **MCP Agent**: LLM with access to tools from your MCP server
 2. **Baseline Agent**: LLM without tools (single-shot patch generation)
 
-By comparing these, you can measure the effectiveness of your MCP server for code exploration and bug fixing.
+By comparing these, you can measure the effectiveness of your MCP server for code exploration and bug fixing. See the **[MCP integration guide](https://greynewell.github.io/mcpbr/mcp-integration/)** for tips on testing your server.
 
 ## Installation
+
+> **[Full installation guide](https://greynewell.github.io/mcpbr/installation/)** with detailed setup instructions.
 
 <details>
 <summary>Prerequisites</summary>
@@ -132,6 +135,8 @@ mcpbr run --config config.yaml
 
 ## Configuration
 
+> **[Full configuration reference](https://greynewell.github.io/mcpbr/configuration/)** with all options and examples.
+
 ### MCP Server Configuration
 
 The `mcp_server` section defines how to start your MCP server:
@@ -203,6 +208,8 @@ Use `{problem_statement}` as a placeholder for the SWE-bench issue text. You can
 | `max_iterations` | `10` | Max agent iterations per task |
 
 ## CLI Reference
+
+> **[Full CLI documentation](https://greynewell.github.io/mcpbr/cli/)** with all commands and options.
 
 Get help for any command with `--help` or `-h`:
 
@@ -368,6 +375,8 @@ Provider: anthropic, Harness: claude-code
 
 ## Output
 
+> **[Understanding evaluation results](https://greynewell.github.io/mcpbr/evaluation-results/)** - detailed guide to interpreting output.
+
 ### Console Output
 
 The harness displays real-time progress with verbose mode (`-v`) and a final summary table:
@@ -516,6 +525,8 @@ This is useful for debugging failed runs or analyzing agent behavior in detail.
 
 ## How It Works
 
+> **[Architecture deep dive](https://greynewell.github.io/mcpbr/architecture/)** - learn how mcpbr works internally.
+
 1. **Load Tasks**: Fetches SWE-bench tasks from HuggingFace
 2. **Create Environment**: For each task, pulls a pre-built SWE-bench Docker image with the repository at the correct commit and all dependencies installed
 3. **Run MCP Agent**: Invokes Claude Code CLI **inside the Docker container**, letting it explore and generate a patch with full access to the project's dependencies
@@ -562,7 +573,7 @@ mcpbr/
     └── example.yaml     # Example configuration
 ```
 
-The architecture uses Protocol-based abstractions for providers and harnesses, making it easy to add support for additional LLM providers or agent backends in the future.
+The architecture uses Protocol-based abstractions for providers and harnesses, making it easy to add support for additional LLM providers or agent backends in the future. See the **[API reference](https://greynewell.github.io/mcpbr/api/)** for programmatic usage.
 
 ### Execution Flow
 
@@ -600,6 +611,8 @@ The architecture uses Protocol-based abstractions for providers and harnesses, m
 ```
 
 ## Troubleshooting
+
+> **[Full troubleshooting guide](https://greynewell.github.io/mcpbr/troubleshooting/)** with solutions to common issues.
 
 ### Docker Issues
 
@@ -672,7 +685,7 @@ ruff check src/
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) or the **[contributing guide](https://greynewell.github.io/mcpbr/contributing/)** for guidelines on how to contribute.
 
 ## License
 
