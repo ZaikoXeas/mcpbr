@@ -21,6 +21,10 @@ Benchmark your MCP server against real GitHub issues. One command, hard numbers.
 [![Documentation](https://img.shields.io/badge/docs-greynewell.github.io%2Fmcpbr-blue)](https://greynewell.github.io/mcpbr/)
 ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/greynewell/mcpbr?utm_source=oss&utm_medium=github&utm_campaign=greynewell%2Fmcpbr&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
 
+[![good first issues](https://img.shields.io/github/issues/greynewell/mcpbr/good%20first%20issue?label=good%20first%20issues&color=7057ff)](https://github.com/greynewell/mcpbr/labels/good%20first%20issue)
+[![help wanted](https://img.shields.io/github/issues/greynewell/mcpbr/help%20wanted?label=help%20wanted&color=008672)](https://github.com/greynewell/mcpbr/labels/help%20wanted)
+[![roadmap](https://img.shields.io/badge/roadmap-200%2B%20features-blue)](https://github.com/greynewell/mcpbr/projects/2)
+
 > Stop guessing if your MCP server actually helps. Get hard numbers comparing tool-assisted vs. baseline agent performance on real GitHub issues.
 
 <p align="center">
@@ -732,6 +736,59 @@ pytest
 # Lint
 ruff check src/
 ```
+
+## Roadmap
+
+We're building the defacto standard for MCP server benchmarking! Our [v1.0 Roadmap](https://github.com/greynewell/mcpbr/projects/2) includes 200+ features across 11 strategic categories:
+
+🎯 **[Good First Issues](https://github.com/greynewell/mcpbr/labels/good%20first%20issue)** | 🙋 **[Help Wanted](https://github.com/greynewell/mcpbr/labels/help%20wanted)** | 📋 **[View Roadmap](https://github.com/greynewell/mcpbr/projects/2)**
+
+[![good first issues](https://img.shields.io/github/issues/greynewell/mcpbr/good%20first%20issue?label=good%20first%20issues&color=7057ff)](https://github.com/greynewell/mcpbr/labels/good%20first%20issue)
+[![help wanted](https://img.shields.io/github/issues/greynewell/mcpbr/help%20wanted?label=help%20wanted&color=008672)](https://github.com/greynewell/mcpbr/labels/help%20wanted)
+[![roadmap progress](https://img.shields.io/github/issues-pr-closed/greynewell/mcpbr?label=roadmap%20progress)](https://github.com/greynewell/mcpbr/projects/2)
+
+### Roadmap Highlights
+
+**Phase 1: Foundation** (v0.3.0)
+- CSV, YAML, XML, JUnit output formats
+- Config validation and templates
+- Results persistence and recovery
+- Cost analysis in reports
+
+**Phase 2: Benchmarks** (v0.4.0)
+- HumanEval, MBPP, ToolBench
+- GAIA for general AI capabilities
+- Custom benchmark YAML support
+- SWE-bench Verified
+
+**Phase 3: Developer Experience** (v0.5.0)
+- Real-time dashboard
+- Interactive config wizard
+- Shell completion
+- Pre-flight checks
+
+**Phase 4: Platform Expansion** (v0.6.0)
+- NPM package
+- GitHub Action for CI/CD
+- Homebrew formula
+- Official Docker image
+
+**Phase 5: MCP Testing Suite** (v1.0.0)
+- Tool coverage analysis
+- Performance profiling
+- Error rate monitoring
+- Security scanning
+
+### Get Involved
+
+We welcome contributions! Check out our **30+ good first issues** perfect for newcomers:
+
+- **Output Formats**: CSV/YAML/XML export, JUnit XML
+- **Configuration**: Validation, templates, shell completion
+- **Platform**: Homebrew formula, Conda package
+- **Documentation**: Best practices, examples, guides
+
+See the [contributing guide](https://greynewell.github.io/mcpbr/contributing/) to get started!
 
 ## Contributing
 
