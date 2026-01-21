@@ -330,11 +330,11 @@ class TestTemplateValidation:
 
     def test_benchmark_values_are_valid(self) -> None:
         """Test that benchmark values are valid."""
-        valid_benchmarks = ["swe-bench", "cybergym"]
+        from mcpbr.config import VALID_BENCHMARKS
 
         for template_id, template in TEMPLATES.items():
             benchmark = template.config["benchmark"]
-            assert benchmark in valid_benchmarks, (
+            assert benchmark in VALID_BENCHMARKS, (
                 f"Template {template_id} has invalid benchmark: {benchmark}"
             )
 
