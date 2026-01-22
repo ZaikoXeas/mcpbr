@@ -66,6 +66,12 @@ jobs:
           test -d .claude-plugin/skills || (echo "Error: skills directory not found" && exit 1)
           echo "Plugin package contents verified"
 
+      - name: Install CLI package dependencies
+        run: |
+          # Install dependencies so prepublishOnly script can run tests
+          npm install
+          echo "CLI dependencies installed"
+
       - name: Publish CLI package to npm
         run: |
           npm publish --access public
